@@ -1,0 +1,22 @@
+{
+  "name": "protfolio-2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "node server.js",
+    "dev:css": "npx @tailwindcss/cli -i ./public/css/input.css -o ./public/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "ejs": "^5.0.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "tailwindcss": "^4.2.2"
+  }
+}
