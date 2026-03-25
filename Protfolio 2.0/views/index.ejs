@@ -147,8 +147,8 @@
                             <%# Decorative circles %>
                             <div class="absolute -bottom-6 -right-6 w-32 h-32 rounded-full bg-white/5 border border-white/10"></div>
                             <div class="absolute -top-4 -left-4 w-20 h-20 rounded-full bg-white/5 border border-white/10"></div>
-                            <div class="relative z-10 h-full flex items-center justify-center">
-                                <span class="text-6xl group-hover:scale-110 transition-transform duration-500 select-none drop-shadow-lg"><%= project.icon %></span>
+                            <div class="relative z-10 h-full w-full">
+                                <img src="<%- project.image %>" alt="<%- project.name %>" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700">
                             </div>
                         </div>
 

@@ -22,7 +22,7 @@ const projects = [
             { label: 'JavaScript', color: 'text-yellow-400 bg-yellow-400/10' }
         ],
         gradient: 'from-teal-600 via-cyan-700 to-blue-800',
-        icon: '&#128279;',
+        image: 'https://images.unsplash.com/photo-1614850523296-d8c1af93d400?q=80&w=1000&auto=format&fit=crop',
         liveUrl: null,
         githubUrl: 'https://github.com/AdityaDNikam/Urlshortner_project'
     },
@@ -35,7 +35,7 @@ const projects = [
             { label: 'CSS3', color: 'text-blue-400 bg-blue-400/10' }
         ],
         gradient: 'from-purple-700 via-violet-700 to-indigo-800',
-        icon: '&#127918;',
+        image: '/images/project_simon_game.png',
         liveUrl: 'https://adityandnikam.github.io/simon-game/',
         githubUrl: 'https://github.com/AdityaDNikam/simon-game'
     },
@@ -48,7 +48,7 @@ const projects = [
             { label: 'OOP', color: 'text-pink-400 bg-pink-400/10' }
         ],
         gradient: 'from-blue-700 via-sky-700 to-cyan-800',
-        icon: '&#128013;',
+        image: '/images/project_python.png',
         liveUrl: null,
         githubUrl: 'https://github.com/AdityaDNikam/Python-projects'
     }
